@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container " id="block">
+    <div class="square" id="square">
+      <div class="square_part right-top"></div>
+      <div class="square_part left-top"></div>
+      <div class="square_part right-bottom"></div>
+      <div class="square_part left-bottom"></div>
+    </div>
+    <div class="circle" id="circle">
+      <button class="disabled" disabled>Нажать</button>
+    </div>
+    <div class="popup">
+      <div class="popup__container">
+        <div class="popup__wrapper">
+          <div class="popup__form">
+            <form class="formSelect" role="form" method="POST">
+              <select  id="mark" name="" class="mark">
+                <option hidden>марка автомобиля</option> 
+              </select>
+              <select id="model" name="" class="model">
+                <option hidden>модель автомобиля</option> 
+              </select>
+              <select class="option year" id="year" name="">
+                <option hidden>год выпуска</option> 
+                <option >2016</option> 
+                <option>2017</option> 
+              </select>
+            </form>
+            <button  id="done" class="nodisplay" onclick="show_popap('modal-2')">Done 
+            </button>
+            <div class="overlay" id="modal-2">
+              <div class="flex-popap">
+                <div class="popap">
+                  <form>
+                    <div class="ui-widget">
+                      <label for="datep">Дата: </label>
+                      <!-- <input class="close_popap" type="button" id="datep" name="Выбор даты" /> -->
+                      <input class="close_popap pop" id="datep" type="date" min="2022-07-30" max="2022-08-30"/>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="choice">
+      <h1>Вы выбрали: 
+          <span class="choiceMark"> </span> 
+          <span class="choiceModel"> </span> 
+          <span class="choiceYear"> </span>. 
+          Дата доставки: <span class="dateDelivery" ></span>
+      </h1>
+      <a href="#" onclick="location.reload(); return false;" class="linkBtn">
+        Обновить страницу
+      </a>
+        </div>
+  </div>
+
+  <script src="js/main.js"></script> 
+</body>
+</html>

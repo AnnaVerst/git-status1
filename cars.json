@@ -1,0 +1,73 @@
+{
+  "Audi": [
+   "Q2",
+   "S1",
+   "SQ5 Sportback",
+   "TT",
+   "V8"
+  ],
+  "Chevrolet": [
+   "Colorado",
+   "Evanda",
+   "Lumina APV",
+   "Omega",
+   "Volt",
+   "Zafira"
+  ],
+  "Ferrari": [
+   "Daytona SP3",
+   "Enzo",
+   "F355",
+   "LaFerrari",
+   "Testarossa"
+  ],
+  "Porsche": [
+   "911",
+   "Boxster",
+   "Macan",
+   "Panamera",
+   "Taycan"
+  ],
+  "Skoda": [
+   "Forman",
+   "Kodiaq RS",
+   "Octavia RS",
+   "Rapid",
+   "Scala"
+  ],
+  "Tesla": [
+   "Cybertruck",
+   "Model S",
+   "Model X",
+   "Model Y",
+   "Roadster"
+  ],
+  "Volvo": [
+   "C30",
+   "XC40",
+   "XC60",
+   "XC70",
+   "XC90"
+  ],
+  "ГАЗ": [
+   "13 «Чайка»",
+   "21 «Волга»",
+   "2308 «Атаман»",
+   "2330 «Тигр»",
+   "24 «Волга»"
+  ],
+  "Москвич": [
+   "Дуэт",
+   "Иван Калита",
+   "Князь Владимир",
+   "Святогор",
+   "Юрий Долгорукий"
+  ],
+  "УАЗ": [
+   "469",
+   "Hunter",
+   "Patriot",
+   "Pickup",
+   "Астеро"
+  ]
+}
